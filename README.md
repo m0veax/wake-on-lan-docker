@@ -33,6 +33,13 @@ As there where numerous issues using this code, even it worked fine in my enviro
 
 _Note_: If you need to copy the file to a remote machine use ``scp`` or ``sftp``.
 
+# Docker Deployment
+
+The Image exposes port 8553
+
+```
+docker compose up --build -d
+```
 
 # Enabling the php sockets extension
 The way the php sockets extension is enabled slidely differes with every php installation.
